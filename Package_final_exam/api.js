@@ -11,7 +11,7 @@ app.get('/presentation', (req, res) => {
 
 // This endpoint contains a small error that students must correct.
 app.get('/correction', (req, res) => {
-  res.sen('Correction endpoint is working');
+  res.send('Correction endpoint is working');
 });
 
 app.listen(PORT, () => {
