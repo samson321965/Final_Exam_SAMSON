@@ -1,0 +1,13 @@
+{
+  "name": "itdi204-final-exam-app",
+  "version": "1.0.0",
+  "description": "Small Node.js API package for ITDI204 final practical exam",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "node -c api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
